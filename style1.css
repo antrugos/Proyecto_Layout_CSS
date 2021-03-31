@@ -1,0 +1,101 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ html {
+     font-size: 62.5%;
+ }
+ header {
+     width: 100%;
+     background-color: #001233;
+     height: auto;
+ }
+ figure, .nav, .nav li  {
+     display: inline-block;
+     margin: 0.5rem;
+}
+.logo img{
+    position: relative;
+    margin: 0.8rem 1.5rem;
+    height: 7rem;
+    width: 30rem;
+    border-radius: 1rem;
+}
+.nav li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.nav {
+    position: absolute;
+    right: 1rem;
+    margin-top: 3.4rem;
+}
+.nav_item a:before {
+    content: " | ";
+    padding: 1.5rem;
+}
+/* Parte del cuerpo de la pagina */
+main {
+    height: 50rem;
+    background-image: url(./bg1.jfif);
+    width: 100%;
+    display: inline-block;
+}
+.izq {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+}
+.rockets img {
+    display: block;
+    border-radius: 4px;
+    margin: 0.8rem 1.5rem;
+    height: 15rem;
+    width: 43rem;
+}
+.der {
+    display: inline-block;
+    position: relative;
+    width: 64%;
+    margin: 0 auto;
+    bottom: 2.6rem;
+}
+.VideoSpace {
+    width: 50rem;
+    height: 30rem;
+    margin: 0 16rem;
+    margin-bottom: 7rem;
+}
+.Mensaje {
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 12rem;
+    color: whitesmoke;
+    text-align: justify;
+}
+/* Footer de la pagina */
+footer {
+    background-color: #001233;
+    width: 100%;
+    height: 100%;
+}
+footer p {
+    display: inline-block;
+    width: 30%;
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+}
+footer .redes {
+    position: absolute;
+    width: 69%;
+    text-align: right;
+}
+.redes img{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 3rem;
+}
